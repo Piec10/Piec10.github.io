@@ -928,6 +928,9 @@
   .bxl-facebook-square:before {
     content: "\e931";
   }
+  .bxl-thingiverse:before {
+    content: "\ef62";
+  }
   .bxl-figma:before {
     content: "\e932";
   }
