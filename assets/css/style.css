@@ -290,6 +290,14 @@ h6 {
   }
 }
 
+.icon-thingiverse {
+    background-image: url("../img/brand-thingiverse.svg");
+    background-position: center center;
+    background-size: cover;
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
