@@ -1,0 +1,7 @@
+languages: ["en", "pl"]
+default_locale_in_subfolder: true
+exclude_from_localizations: ["assets"]
+defaultLang: en
+languageNames:
+  en: English
+  pl: Polski
