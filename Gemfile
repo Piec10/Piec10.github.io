@@ -5,4 +5,8 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "jekyll", "~> 4.3"
-gem 'jekyll-multiple-languages-plugin'
+
+
+group :jekyll_plugins do
+    gem 'jekyll-multiple-languages-plugin'
+end
