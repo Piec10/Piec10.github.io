@@ -3,3 +3,11 @@ global:
   about: About
   resume: Resume
   contact: Contact
+
+hero:
+  im: I'm
+  roles: Developer, Designer
+
+contact:
+  location: Location
+  call: Call

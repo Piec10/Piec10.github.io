@@ -192,6 +192,15 @@ h6 {
   color: #bb14dd;
 }
 
+.lang-link a{
+  color: #a8a9b4;
+}
+
+.lang-link a:hover,
+.lang-link .active {
+  color: #fff;
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;

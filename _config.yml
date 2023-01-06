@@ -1,5 +1,5 @@
 default_locale_in_subfolder: true
-
+baseurl: ""
 plugins:
   - jekyll-multiple-languages-plugin
 

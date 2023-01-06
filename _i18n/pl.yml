@@ -3,3 +3,11 @@ global:
   about: O mnie
   resume: CV
   contact: Kontakt
+
+hero:
+  im: Jestem
+  roles: Developerem, Designerem
+
+contact:
+  location: Adres
+  call: Telefon
