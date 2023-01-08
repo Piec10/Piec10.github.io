@@ -1,6 +1,7 @@
 global:
   home: Home
   about: About
+  skills: Skills
   resume: Resume
   contact: Contact
 
@@ -11,3 +12,34 @@ hero:
 contact:
   location: Location
   call: Call
+
+resume:
+  experience: Professional Experience
+
+  job1:
+    position: Mechanical Production Manager
+    dates: September 2016 - December 2022
+    company: Lasertex Sp. z o. o. Wroclaw Poland
+    description:
+
+  job2:
+    position: Design Engineer
+    dates: April 2015 - December 2022
+    company: Lasertex Sp. z o. o. Wroclaw Poland
+    description:
+      li1: Designing new devices in close cooperation with the electronics and optics department.
+      li2: Optimization of the arrangement of components for the smallest dimensions of the device.
+      li3: Design and kinematic analysis of precise mechanisms for optics alignment.
+      li4: Development and optimization of existing solutions.
+
+  education: Education
+
+  edu1:
+    degree: Master of Engineering in Mechatronics
+    dates: 2014 - 2015
+    uni: Wroclaw University of Science and Technology
+
+  edu2:
+    degree: Bachelor of Engineering in Mechatronics
+    dates: 2010 - 2014
+    uni: Wroclaw University of Science and Technology

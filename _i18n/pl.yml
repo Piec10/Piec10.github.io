@@ -1,6 +1,7 @@
 global:
   home: Strona Główna
   about: O mnie
+  skills: Umiejętności
   resume: CV
   contact: Kontakt
 
@@ -11,3 +12,35 @@ hero:
 contact:
   location: Adres
   call: Telefon
+
+resume:
+  experience: Doświadczenie
+
+  job1:
+    position: Kierownik produkcji mechanicznej
+    dates: wrzesień 2016 - grudzień 2022
+    company: Lasertex Sp. z o. o. Wrocław
+    description:
+      li1:
+
+  job2:
+    position: Konstruktor
+    dates: kwiecień 2015 - grudzień 2022
+    company: Lasertex Sp. z o. o. Wrocław
+    description:
+      li1: Projektowanie nowych urządzeń w ścisłej współpracy z działem elektroniki i optyki.
+      li2: Optymalizacja rozmieszczenia komponentów pod kątem jak najmniejszych gabarytów urządzenia.
+      li3: Projektowanie i analiza kinematyczna precyzyjnych mechanizmów justowania układów optycznych.
+      li4: Rozwój i optymalizacja istniejących rozwiązań.
+
+  education: Wykształcenie
+
+  edu1:
+    degree: Magister Mechatroniki
+    dates: 2014 - 2015
+    uni: Politechnika Wrocławska
+
+  edu2:
+    degree: Inżynier Mechatroniki
+    dates: 2010 - 2014
+    uni: Politechnika Wrocławska
