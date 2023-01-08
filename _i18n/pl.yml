@@ -8,6 +8,8 @@ global:
 hero:
   im: Jestem
   roles: Developerem, Designerem
+  about: Uwielbiam tworzyć nowe rzeczy. Niezależnie od tego, czy chodzi o oprogramowanie, czy o konstrukcję mechaniczną, zawsze szukam najlepszego rozwiązania.
+  skills: Zdobywanie nowych umiejętności i poszerzanie posiadanej wiedzy jest dla mnie bardzo ważne. Aktualnie skupiam się na rozwoju w dziedzinie tworzenia oprogramowania.
 
 contact:
   location: Adres

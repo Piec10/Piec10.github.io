@@ -8,6 +8,8 @@ global:
 hero:
   im: I'm
   roles: Developer, Designer
+  about: I love to create new things. Whether it's software or mechanical design, I'm always looking for the best solution.
+  skills: Acquiring new skills and expanding my knowledge is very important to me. Currently I am focusing on software development.
 
 contact:
   location: Location
