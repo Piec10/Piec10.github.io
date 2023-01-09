@@ -18,6 +18,16 @@ contact:
 resume:
   experience: Doświadczenie
 
+  languages: Języki
+
+  lang1:
+    name: Angielski
+    exp: Zaawansowany
+
+  lang2:
+    name: Niemiecki
+    exp: Średni
+
   job1:
     position: Kierownik produkcji mechanicznej
     dates: wrzesień 2016 - grudzień 2022

@@ -36,6 +36,16 @@ resume:
 
   education: Education
 
+  languages: Languages
+
+  lang1:
+    name: English
+    exp: Advanced
+
+  lang2:
+    name: German
+    exp: Intermediate
+
   edu1:
     degree: Master of Engineering in Mechatronics
     dates: 2014 - 2015
