@@ -57,3 +57,8 @@ resume:
     degree: Bachelor of Engineering in Mechatronics
     dates: 2010 - 2014
     uni: Wroclaw University of Science and Technology
+
+skills:
+  md: Mechanical Design
+  3dm: 3D Modeling
+  3dp: 3D Printing
