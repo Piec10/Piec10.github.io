@@ -693,7 +693,8 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .services .icon {
@@ -701,8 +702,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
+  width: 40px;
+  height: 40px;
   background: #bb14dd;
   border-radius: 50%;
   transition: 0.5s;
@@ -724,9 +725,16 @@ section {
 }
 
 .services .title {
-  margin-left: 80px;
+  margin-left: 60px;
+  margin-top: 10px;
   font-weight: 700;
-  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title-text {
+  margin-left: 60px;
+  margin-top: 10px;
+  font-weight: 700;
   font-size: 18px;
 }
 
@@ -735,6 +743,14 @@ section {
 }
 
 .services .title a:hover {
+  color: #bb14dd;
+}
+
+.services .title-text {
+  color: #343a40;
+}
+
+.services .title-text:hover {
   color: #bb14dd;
 }
 
