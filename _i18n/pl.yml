@@ -62,3 +62,7 @@ skills:
   md: Projektowanie Mechanizmów
   3dm: Modelowanie 3D
   3dp: Druk 3D
+
+portfolio:
+  project1:
+    description: Aplikacja webowa pozwalająca na zarządzanie projektami współtworzonymi przez wielu użytkowników

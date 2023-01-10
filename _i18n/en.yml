@@ -62,3 +62,7 @@ skills:
   md: Mechanical Design
   3dm: 3D Modeling
   3dp: 3D Printing
+
+portfolio:
+  project1:
+    description: Web application for managing projects created by many users
