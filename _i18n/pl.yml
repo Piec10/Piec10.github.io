@@ -64,5 +64,20 @@ skills:
   3dp: Druk 3D
 
 portfolio:
+
+  projecturl: Adres URL projektu
+  projectgithub: Strona Github projektu
+  details: Szczegóły
+  technologies: Technologie
+
   project1:
     description: Aplikacja webowa pozwalająca na zarządzanie projektami współtworzonymi przez wielu użytkowników
+    details: ttt
+
+  project2:
+    description: Oprogramowanie do tworzenia i edycji trójwymiarowych kształtów, które następnie są przetwarzane na kod sterujący giętarki CNC
+    details: ttt
+
+  project3:
+    description: Prosty program do generacji kodu sterującego dla obcinarki CNC
+    details: ttt

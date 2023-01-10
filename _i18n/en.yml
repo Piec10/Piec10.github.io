@@ -64,5 +64,20 @@ skills:
   3dp: 3D Printing
 
 portfolio:
+
+  projecturl: Project URL
+  projectgithub: Project Github
+  details: Project Details
+  technologies: Technologies
+
   project1:
     description: Web application for managing projects created by many users
+    details: "This application is still under development. It is created for educational purposes, modeled on such software as Jira or Trello."
+
+  project2:
+    description: Software for creating and editing 3D shapes, which are used for generating instructions for CNC bending machine
+    details: ttt
+
+  project3:
+    description: Simple software for CNC Wire Cutter
+    details: ttt
