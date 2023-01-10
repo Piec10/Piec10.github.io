@@ -660,9 +660,15 @@ section {
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
+}
 
-
-
+.portfolio-details .portfolio-info a {
+  color: black;
+  text-decoration: none;
+}
+.portfolio-details .portfolio-info a:hover {
+  color: #bb14dd;
+  text-decoration: none;
 }
 
 .portfolio-details .portfolio-info p {
