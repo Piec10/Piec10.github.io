@@ -83,5 +83,6 @@ portfolio:
     details: ttt
 
   project4:
-    description: Simple software for CNC Wire Cutter
+    title: CNC wire bending machine
+    description: 3D printed 5 axis homemade bending machine for small diameter wire
     details: ttt

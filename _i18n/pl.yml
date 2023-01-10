@@ -83,5 +83,6 @@ portfolio:
     details: ttt
 
   project4:
-    description: Simple software for CNC Wire Cutter
+    title: Giętarka do drutu CNC
+    description: 5-osiowa giętarka CNC do drutu o małej średnicy zbudowana z wykorzystaniem technologii druku 3D
     details: ttt
