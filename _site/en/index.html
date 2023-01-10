@@ -60,31 +60,27 @@
 
         <nav id="navbar" class="nav-menu navbar">
             <ul>
-                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>{% t global.home %}</span></a>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
                 </li>
                 <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i>
-                    <span>{% t global.about %}</span></a></li>
+                    <span>About</span></a></li>
                 <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
                     <span>Portfolio</span></a></li>
-                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>{% t global.resume %}</span></a>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
                 </li>
-                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>{% t global.contact %}</span></a>
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
                 </li>
             </ul>
         </nav><!-- .nav-menu -->
         <div class="row mt-auto text-center lang-link">
       <span>
-        {% if site.lang == "pl" %}
-        <a class="active" href="{% tl root pl %}">PL</a>
-        {% else %}
-        <a href="{% tl root pl %}">PL</a>
-        {% endif %}
+        
+        <a href="/pl/">PL</a>
+        
         |
-        {% if site.lang == "en" %}
-        <a class="active" href="{% tl root en %}">EN</a>
-        {% else %}
-        <a href="{% tl root en %}">EN</a>
-        {% endif %}
+        
+        <a class="active" href="/en/">EN</a>
+        
       </span>
         </div>
         <div class="row py-4 py-xl-5"></div>
@@ -95,7 +91,7 @@
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
         <h1>Mateusz Piecka</h1>
-        <p>{% t hero.im %} <span class="typed" data-typed-items="{% t hero.roles %}"></span></p>
+        <p>I'm <span class="typed" data-typed-items="Developer, Designer"></span></p>
     </div>
 </section><!-- End Hero -->
 
@@ -105,8 +101,8 @@
     <section id="about" class="about section-bg">
         <div class="container">
             <div class="section-title">
-                <h2>{% t global.about %}</h2>
-                <p>{% t hero.about %}</p>
+                <h2>About</h2>
+                <p>I love to create new things. Whether it's software or mechanical design, I'm always looking for the best solution.</p>
             </div>
         </div>
     </section><!-- End About Section -->
@@ -116,8 +112,8 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>{% t global.skills %}</h2>
-                <p>{% t hero.skills %}</p>
+                <h2>Skills</h2>
+                <p>Acquiring new skills and expanding my knowledge is very important to me. Currently I am focusing on software development.</p>
             </div>
 
             <div class="row g-3">
@@ -176,15 +172,15 @@
                 </div>
                 <div class="col-xl-3 col-md-4 col-sm-6 icon-box" data-aos="fade-up" data-aos-delay="700">
                     <div class="icon"><i class="bx bx-cog"></i></div>
-                    <h4 class="title-text">{% t skills.md %}</h4>
+                    <h4 class="title-text">Mechanical Design</h4>
                 </div>
                 <div class="col-xl-3 col-md-4 col-sm-6 icon-box" data-aos="fade-up" data-aos-delay="750">
                     <div class="icon"><i class="bx bx-cube"></i></div>
-                    <h4 class="title-text">{% t skills.3dm %}</h4>
+                    <h4 class="title-text">3D Modeling</h4>
                 </div>
                 <div class="col-xl-3 col-md-4 col-sm-6 icon-box" data-aos="fade-up" data-aos-delay="800">
                     <div class="icon"><i class="bx bx-diamond"></i></div>
-                    <h4 class="title-text">{% t skills.3dp %}</h4>
+                    <h4 class="title-text">3D Printing</h4>
                 </div>
             </div>
 
@@ -299,59 +295,59 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>{% t global.resume %}</h2>
+                <h2>Resume</h2>
                 <p>Pobierz CV</p>
             </div>
 
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
 
-                    <h3 class="resume-title">{% t resume.experience %}</h3>
+                    <h3 class="resume-title">Professional Experience</h3>
                     <div class="resume-item">
-                        <h4>{% t resume.job1.position %}</h4>
-                        <h5>{% t resume.job1.dates %}</h5>
-                        <p><em>{% t resume.job1.company %}</em></p>
+                        <h4>Mechanical Production Manager</h4>
+                        <h5>September 2016 - December 2022</h5>
+                        <p><em>Lasertex Sp. z o. o. Wroclaw Poland</em></p>
                         <ul>
-                            <li>{% t resume.job1.description.li1 %}</li>
-                            <li>{% t resume.job1.description.li2 %}</li>
+                            <li>Leading the production team to provide fast and efficient prototyping and manufacturing.</li>
+                            <li>Supervising production and assembly to ensure quality.</li>
                         </ul>
                     </div>
                     <div class="resume-item">
-                        <h4>{% t resume.job2.position %}</h4>
-                        <h5>{% t resume.job2.dates %}</h5>
-                        <p><em>{% t resume.job2.company %}</em></p>
+                        <h4>Design Engineer</h4>
+                        <h5>April 2015 - December 2022</h5>
+                        <p><em>Lasertex Sp. z o. o. Wroclaw Poland</em></p>
                         <ul>
-                            <li>{% t resume.job2.description.li1 %}</li>
-                            <li>{% t resume.job2.description.li2 %}</li>
-                            <li>{% t resume.job2.description.li3 %}</li>
-                            <li>{% t resume.job2.description.li4 %}</li>
+                            <li>Designing new devices in close cooperation with the electronics and optics department.</li>
+                            <li>Optimization of the arrangement of components for the smallest dimensions of the device.</li>
+                            <li>Design and kinematic analysis of precise mechanisms for optics alignment.</li>
+                            <li>Development and optimization of existing solutions.</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
-                    <h3 class="resume-title">{% t resume.education %}</h3>
+                    <h3 class="resume-title">Education</h3>
                     <div>
                         <div class="resume-item">
-                            <h4>{% t resume.edu1.degree %}</h4>
-                            <h5>{% t resume.edu1.dates %}</h5>
-                            <p><em>{% t resume.edu1.uni %}</em></p>
+                            <h4>Master of Engineering in Mechatronics</h4>
+                            <h5>2014 - 2015</h5>
+                            <p><em>Wroclaw University of Science and Technology</em></p>
                         </div>
                         <div class="resume-item">
-                            <h4>{% t resume.edu2.degree %}</h4>
-                            <h5>{% t resume.edu2.dates %}</h5>
-                            <p><em>{% t resume.edu2.uni %}</em></p>
+                            <h4>Bachelor of Engineering in Mechatronics</h4>
+                            <h5>2010 - 2014</h5>
+                            <p><em>Wroclaw University of Science and Technology</em></p>
                         </div>
                     </div>
-                    <h3 class="resume-title">{% t resume.languages %}</h3>
+                    <h3 class="resume-title">Languages</h3>
                     <div class="resume-item">
-                        <h4>{% t resume.lang1.name %}</h4>
-                        <p><em>{% t resume.lang1.exp %}</em></p>
+                        <h4>English</h4>
+                        <p><em>Advanced</em></p>
                     </div>
                     <div class="resume-item">
-                        <h4>{% t resume.lang2.name %}</h4>
-                        <p><em>{% t resume.lang2.exp %}</em></p>
+                        <h4>German</h4>
+                        <p><em>Intermediate</em></p>
                     </div>
                 </div>
 
@@ -366,7 +362,7 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>{% t global.contact %}</h2>
+                <h2>Contact</h2>
                 <p></p>
             </div>
 
@@ -376,7 +372,7 @@
                     <div class="info">
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
-                            <h4>{% t contact.location %}:</h4>
+                            <h4>Location:</h4>
                             <p>Konstantego Ildefonsa Gałczyńskiego 10, 57-100 Strzelin, Polska</p>
                         </div>
 
@@ -388,7 +384,7 @@
 
                         <div class="phone">
                             <i class="bi bi-phone"></i>
-                            <h4>{% t contact.call %} & WhatsApp:</h4>
+                            <h4>Call & WhatsApp:</h4>
                             <p>+48 604 079 693</p>
                         </div>
 
