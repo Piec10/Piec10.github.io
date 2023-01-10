@@ -81,3 +81,7 @@ portfolio:
   project3:
     description: Prosty program do generacji kodu sterującego dla obcinarki CNC
     details: ttt
+
+  project4:
+    description: Simple software for CNC Wire Cutter
+    details: ttt
