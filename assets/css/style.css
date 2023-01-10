@@ -624,6 +624,28 @@ section {
   bottom: 0;
 }
 
+.portfolio .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio .content ul li {
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio .content ul strong {
+  margin-right: 10px;
+}
+
+.portfolio .content ul i {
+  font-size: 16px;
+  margin-right: 15px;
+  color: #bb14dd;
+  line-height: 0;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -674,7 +696,7 @@ section {
 .portfolio-details .portfolio-info p {
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
+
 }
 
 .portfolio-details .portfolio-info ul {
