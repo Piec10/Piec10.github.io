@@ -1,5 +1,5 @@
 default_locale_in_subfolder: true
-baseurl: ""
+baseurl: '/Piec10.github.io'
 plugins:
   - jekyll-multiple-languages-plugin
 
