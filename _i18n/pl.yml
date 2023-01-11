@@ -89,9 +89,10 @@ portfolio:
 
   project3:
     description: Prosty program do generacji kodu sterującego dla obcinarki CNC
-    details: ttt
+    details: "Aplikacja pozwala na szybkie wygenerowanie g-kodu maszyny do cięcia drutu. Wszystkie niezbędne opcje maszyny oraz generacji kodu można skonfigurować."
 
   project4:
     title: Giętarka do drutu CNC
     description: 5-osiowa giętarka CNC do drutu o małej średnicy zbudowana z wykorzystaniem technologii druku 3D
-    details: ttt
+    details: "Projekt hobbystyczny maszyny CNC pozwalającej na wyginanie dowolnych kształtów z drutu. Elementy w większości wydrukowane na drukarce 3D. Do napędów wykorzystałem silniki krokowe. 
+              Jako sterownika użyłem modułu Arduino Mega2560 z oprogramowaniem grbl-Mega-5X. Panel sterujący wykorzystuje RaspberryPi z wyświetlaczem dotykowym oraz oprogramowaniem cn5x."

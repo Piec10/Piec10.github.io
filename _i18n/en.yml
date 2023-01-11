@@ -87,9 +87,10 @@ portfolio:
 
   project3:
     description: Simple software for CNC Wire Cutter
-    details: ttt
+    details: "The application allows to quickly generate the g-code for the wire cutting machine. All necessary machine and code generation options are configurable."
 
   project4:
     title: CNC wire bending machine
     description: 3D printed 5 axis homemade bending machine for small diameter wire
-    details: ttt
+    details: "A hobby project of a CNC machine that allows to bend any shape from wire. Elements mostly 3D printed. I used stepper motors for the drives.
+              As a driver I used the Arduino Mega2560 module with the grbl-Mega-5X software. The control panel uses a RaspberryPi with a touch screen and cn5x software."
