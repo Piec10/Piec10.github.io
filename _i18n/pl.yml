@@ -72,11 +72,20 @@ portfolio:
 
   project1:
     description: Aplikacja webowa pozwalająca na zarządzanie projektami współtworzonymi przez wielu użytkowników
-    details: ttt
+    details: "Aplikacja stworzona w celach edukacyjnych, wzorowana na takim oprogramowaniu jak Jira czy Trello. Umożliwia tworzenie projektów i dodawanie do nich zagadnień oraz 
+              zarządzanie nimi: różne poziomy priorytetu, edycja, zamknięcie zakończonego zagadnienia. Pozwala na dodawanie do projektu wielu użytkowników z różnymi poziomami dostępu.
+              Aplikacja wykorzystuje bazę danych MySQL. Responsywny frontend zapewnia prawidłowe wyświetlanie również na urządzeniach mobilnych."
 
   project2:
     description: Oprogramowanie do tworzenia i edycji trójwymiarowych kształtów, które następnie są przetwarzane na kod sterujący giętarki CNC
-    details: ttt
+
+    details: "Aplikacja stworzona do współpracy z giętarką CNC, którą buduję w wolnym czasie. 
+              Kod sterujący dla bardziej skomplikowanych kształtów jest praktycznie niemożliwy do napisania ręcznie, dlatego potrzebowałem oprogramowania, które zrobi to za mnie."
+
+    details2: "Dane wejściowe można wczytać z pliku zawierającego listę punktów 3D, jest również możliwość ręcznego dodawania segmentów. Ciekawą opcją edycji jest możliwość
+              interpolacji punktów 3D w celu zagęszczenia geometrii i uzyskania bardziej gładkiego profilu gięcia. Parametry geometrii maszyny oraz opcje generowanego g-kodu
+              można konfigurować. Dla zapewnienia wysokiej dokładności gięcia oprogramowanie pozwala na wprowadzenie wartości kompensacji dla różnych kątów, co jest niezbędne ze
+              względu na sprężystość materiału. Widok 3D generowanego kształtu ułatwia edycję, a możliwość odtworzenia animacji gięcia pozwala na wychwycenie ewentualnych błędów oraz kolizji z maszyną."
 
   project3:
     description: Prosty program do generacji kodu sterującego dla obcinarki CNC
