@@ -5,4 +5,4 @@ plugins:
 
 languages: ["en", "pl"]
 
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets", "base.html"]
