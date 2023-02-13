@@ -1165,3 +1165,21 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.btn-outline-custom{
+  color: #bb14dd;
+  border-color: #bb14dd;
+}
+
+.btn-outline-custom:focus{
+  box-shadow: 0 0 0 0.2rem #cf5ae7;
+  -webkit-box-shadow: 0 0 0 0.2rem #cf5ae7;
+  outline: 0;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:active{
+  color: #fff;
+    background-color: #bb14dd;
+    border-color: #bb14dd;
+}
